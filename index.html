@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comidas do Mundo</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
 </head>
 <body>
     <main>
-        <h1>Comidas Típicas ao Redor do Mundo</h1>
-        <article>
+        <header>
+            <h1>Comidas Típicas ao Redor do Mundo</h1>
             <h2>Comer é uma delicia, imagina experimentar comidas tipicas de outros países!</h2>
             <p>Comer é uma delicia, imagina experimentar comidas tipicas de outros países!</p>
+        </header>
+        <article>
             <h2>1. Moussaka - Grécia</h2>
             <p>A Moussaka é um prato típico mediterrâneo. Na Grécia, por exemplo, ele é extremamente popular.</p>
             <p>Olhando de longe ele é muito parecido com uma lasanha, mas seu preparo é bem diferente.  Geralmente a Moussaka é feita com molho de queijo bechamel, carne de cordeiro e berinjela.</p>
@@ -34,6 +37,27 @@
             <p>O Bulgogi é um prato coreano, que traduzido significa carne de fogo. Isso já dá um sinal de que o gosto e o tempero serão bem fortes, certo? Na Coréia o Bulgogi é temperado com vinho, cebola, molho de soja, gergelim e vegetais.</p>
             <p>É quase impossível visitar a Coréia e não se deparar com esse prato superpopular. Ele pode ser encontrado, inclusive, em redes de fast food coreanas.</p>
         </article>
+        <form action="cadastro.php" method="get" autocomplete="off">
+            <fieldset>
+                <p>Qual doa pratos acima você comeria?</p>
+                <input type="checkbox" name="comida" id="moussaka">
+                <label for="moussaka">Moussaka</label> <br>
+                <input type="checkbox" name="comida" id="masala">
+                <label for="masala">Masala Dosa</label> <br>
+                <input type="checkbox" name="comida" id="tacos">
+                <label for="tacos">Tacos</label> <br>
+                <input type="checkbox" name="comida" id="escargot">
+                <label for="escargot">Escargot</label> <br>
+                <input type="checkbox" name="comida" id="bulgogi">
+                <label for="bulgogi">Bulgogi</label> <br>
+                <p>
+                    <label for="mensagem">Tem alguma comida que queira comentar?</label> <br>
+                    <textarea name="" id="mensagem" cols="30" rows="1" maxlength="20"></textarea>
+                </p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </fieldset>
+        </form>
     </main>
 </body>
 </html>

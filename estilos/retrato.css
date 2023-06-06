@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+header >h2{
+    text-align: justify;
+    width: 300px;
+}
+body{
+    font-size: 0.9em;
+    width: 100vw;
+    height: 100vh;
+}
+article >p{
+    text-align: justify;
+    padding: 17px;
+}
+article, h2{
+    padding: 20px;
+}
+img{
+    width: 430px;
+}
+form{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+form >fieldset{
+    padding: 20px;
+    font-size: 1.2em;
+}
