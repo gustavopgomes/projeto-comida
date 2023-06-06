@@ -8,6 +8,9 @@ html, body{
     font-family: Arial, Helvetica, sans-serif;
     width: 800px;
 }
+.indent{
+    text-indent: 40px;
+}
 header{
     text-align: justify;
     padding: 10px;
@@ -22,4 +25,8 @@ header >h2{
 article{
     padding: 30px;
     font-size: 1.3em;
+}
+.bottom{
+    padding: 3px;
+    border-radius: 10px;
 }
