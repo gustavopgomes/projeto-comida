@@ -6,21 +6,36 @@
 }
 html, body{
     font-family: Arial, Helvetica, sans-serif;
-    width: 800px;
+    width: 100vw;
+    height: 100vh;
+}
+img{
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.295);
 }
 .indent{
     text-indent: 40px;
 }
 header{
     text-align: justify;
-    padding: 10px;
+    background-color: rgba(188, 187, 187, 0.584);
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.252);
+    margin: auto;
+    width: 100vw;
 }
-header, h1{
+header >h1{
+    background-color: rgba(165, 164, 164, 0.642);
+    border-radius: 30px;
+    padding: 27px
+    padding-bottom: 21px;
     text-align: center;
-    padding: 20px;
 }
-header >h2{
+header >p{
     padding: 10px;
+    text-align: justify;
+    width: 500px;
+    padding: 26px;
+    font-size: 1em;
 }
 article{
     padding: 30px;
@@ -29,4 +44,21 @@ article{
 .bottom{
     padding: 3px;
     border-radius: 10px;
+}
+form{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+form >fieldset{
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    margin-bottom: 28px;
+}
+form > fieldset >p{
+    padding: 10px;
+}
+.mensagem{
+    border-radius: 50%;
 }

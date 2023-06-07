@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
 header{
     background-color: rgba(188, 187, 187, 0.584);
     border-radius: 20px;
     box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.252);
+    margin: ;
 }
 header >h1{
     background-color: rgba(165, 164, 164, 0.642);
@@ -11,21 +16,14 @@ header >h1{
     padding: 27px;
     padding-bottom: 21px;
 }
-header >h2{
-    text-align: justify;
-    width: 300px;
-    padding: 20px;
-}
 header >p{
-    text-align: justify;
     width: 300px;
-    padding: 9px;
-    font-size: 1.1em;
+    padding: 24px;
 }
-body{
+html, body{
     font-size: 0.9em;
-    width: 100vw;
-    height: 100vh;
+    width: 450px;
+    margin: auto;
 }
 article >p{
     text-align: justify;
@@ -46,7 +44,11 @@ form >fieldset{
     padding: 20px;
     font-size: 1.2em;
     border-radius: 20px;
+    margin-bottom: 28px;
 }
 form > fieldset >p{
     padding: 10px;
+}
+.mensagem{
+    border-radius: 50%;
 }
