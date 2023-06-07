@@ -11,6 +11,8 @@ html, body{
 }
 img{
     box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.295);
+    padding-top: 55px;
+    padding-bottom: 35px;
 }
 .indent{
     text-indent: 40px;
@@ -40,6 +42,9 @@ header >p{
 article{
     padding: 30px;
     font-size: 1.3em;
+}
+article >h2{
+    padding-top: 30px;
 }
 .bottom{
     padding: 3px;
